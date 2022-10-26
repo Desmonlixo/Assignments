@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #CDFFFC;
+    text-align: center;
+    
+}
+.heading_1, .p_text {
+    padding: 10px;
+    color: #1597BB;
+}
+
+.form {
+    background-color: #1597BB;
+    width: 30%;
+    margin: 20px auto 0 auto;
+    padding: 10px;
+    border-radius: 50px;
+}
+.input_div{
+    padding: 10px;
+    width: 80%;
+    margin: 0 auto 0 auto;
+    color: #CDFFFC;
+
+}
+input[type=submit] {
+    background-color: #54BAB9;
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+}
+
+input{
+    width: 70%;
+}
+
+input[type=submit]:hover  {
+    background-color: #3FA796;
+    width: 100px;
+    height: 30px;
+}
+a {
+    color:9FD8DF                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               ;
+}
+
+a:hover {
+    color:#CDFFFC;
+}
+
+#signup_text {
+    color: #CDFFFC;
+    padding: 10px;
+}
+
+::placeholder {
+    color: #1597BB;
+    opacity: 1;
+    text-align: center;
+}
+
+input[type=date] {
+    color: #1597BB;
+    opacity: 1;
+    text-align: center;
+}
+

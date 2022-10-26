@@ -1,0 +1,185 @@
+*, html, body  {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: snow;
+    color: gray;
+    text-align: center;
+}
+
+main {
+    height: 80%;
+}
+
+nav {
+    background-color: #1597BB;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: right;
+    position: sticky;
+    bottom: 0;
+}
+.menu {
+    padding: 0 10px 0 10px;
+    color: #CDFFFC;
+    text-decoration: none;
+}
+
+.menu:hover {
+    color: #57fff4;
+}
+
+#current {
+    color: #57fff4;
+}
+
+.heading {
+    padding: 10px;
+}
+
+h1, h2, h3 {
+    color: #1597BB;
+    padding: 10px;
+}
+
+img {
+    padding: 20px;
+    border-radius: 50%;
+}
+
+.content {
+    padding: 20px;
+    width: 50%;
+    margin: 0 auto 0 auto;
+}
+
+.content_skill {
+    padding: 20px;
+    padding-bottom: 120px;
+    width: 50%;
+    margin: 0 auto 0 auto;
+    position: relative;
+}
+
+#skill_1 {
+    position: absolute;
+    right: 50%;
+    padding: 10px;
+}
+
+#skill_2 {
+    position: absolute;
+    left: 50%;
+    padding: 10px;
+}
+
+.content_hubbies {
+    padding: 20px;
+    padding-bottom: 120px;
+    width: 50%;
+    margin: 0 auto 0 auto;
+    position: relative;
+}
+
+#hubby_1 {
+    position: absolute;
+    right: 50%;
+    padding: 10px;
+}
+
+#hubby_2 {
+    position: absolute;
+    left: 50%;
+    padding: 10px;
+}
+
+hr {
+    background-color: white;
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 5px;
+    border-color: GREY;
+    margin: 0 auto 0 auto;
+    width: 5%;
+}
+
+footer {
+    background-color: #1597BB;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer div a {
+    padding: 10px;
+    color: #CDFFFC;
+    text-decoration: none;
+}
+
+.social_media {
+    padding-bottom: 20px;
+}
+
+.copy_right {
+    color: #CDFFFC;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+}
+
+a {
+    color: #1597BB;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #04c5fb;
+}
+
+.contact_text {
+    padding: 20px;
+}
+.contact {
+    margin-top: 20px;
+}
+
+.service_text, #service_intro {
+    padding: 10px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.project_text {
+    padding: 20px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.message {
+    padding: 20px;
+    color: #1597BB;
+}
+.message_input {
+    padding: 10px;
+}
+
+#btn{
+    color: #15f7e8;
+    background-color: #1597BB;
+    border: none;
+    width: 60px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+#btn:hover {
+    background-color: #015971;
+}

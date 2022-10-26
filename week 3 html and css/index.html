@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Registration page</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <header>
+      <div>
+        <h1 class="heading_1">Welcome To Desmonlixo Tech Hub</h1>
+        <p class="p_text">Register with us below</p>
+      </div>
+    </header>
+    <main>
+      <div class="form">
+        <p id="signup_text">SIGN UP</p>
+        <form action="login.html">
+          <div class="input_div">
+            <input type="text" name="fname" placeholder="First Name" required />
+          </div>
+          <div class="input_div">
+            <input type="text" name="lname" placeholder="Last Name" required />
+          </div>
+          <div class="input_div">
+            <input
+              type="number"
+              name="pnum"
+              id="pnum"
+              placeholder="Phone Number"
+              maxlength="11"
+              required
+            />
+          </div>
+          <div class="input_div">
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Email Address"
+              required
+            />
+          </div>
+          <div class="input_div">
+            <input
+              type="password"
+              name="pword"
+              id="pword"
+              placeholder="Input Password"
+              minlength="8"
+              required
+            />
+          </div>
+          <div class="input_div">
+            <label for="gender">Choose Your Gender</label><br />
+            <select name="gender" id="gender">
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+              <option value="others">Others</option>
+            </select>
+          </div>
+          <div class="input_div">
+            <label for="dob">Date of Birth</label><br />
+            <input type="date" name="dob" id="dob" required />
+          </div>
+          <div class="input_div">
+            <label for="fcolor">What,s your favourite color?</label><br />
+            <input type="color" name="fcolor" id="fcolor" required />
+          </div>
+          <div class="input_div">
+            <a href="login.htms"
+              ><input type="submit" value="Submit" id="submit"
+            /></a>
+          </div>
+          <div class="input_div">
+            <p>
+              Already have an account with us, Log in
+              <a href="login.html">here.</a>
+            </p>
+          </div>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
